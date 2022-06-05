@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+shopt -s expand_aliases
 
 RULES_DIR=/etc/udev/rules.d
 RULES_FILE="$RULES_DIR"/42-flipperzero.rules
